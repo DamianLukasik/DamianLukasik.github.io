@@ -1,3 +1,11 @@
-<div class="background">
-  <h5>Welcome to Cockpit</h5>
+<div class="head">
+  <h5 class="message">{{message}}</h5>
+</div>
+
+<div *ngIf="CurrentStatus=='Welcome'" class="StartPanel">
+<button (click)="Start()">Start</button>
+</div>
+
+<div *ngIf="CurrentStatus=='Main'" class="Cockpit">
+  Kokpit
 </div>

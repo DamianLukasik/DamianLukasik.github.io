@@ -1,6 +1,28 @@
-h5 {
+div.head {
+    background-color: blanchedalmond;
+    padding: 12px;
+    height: 40px;
+}
+
+div.StartPanel {
+    text-align: -webkit-center;
+    padding: 30px;
+}
+
+h5.message {
     color:firebrick;
     font-size: 23px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: -webkit-center;
+    margin: 0px;
+    white-space: break-spaces;
+}
+
+button {
+    padding: 6px 26px;
+    margin: 6px;
+    background-color: blanchedalmond;
+    border: solid 2px firebrick;
+    color:firebrick;
+    font-weight: bold;
 }
